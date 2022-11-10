@@ -12,7 +12,7 @@ export default function Title({ title }: Props) {
   const Title = styled.h1`
     font-size: 6rem;
     font-weight: bold;
-    color: white;
+    color: "#5E616B";
     font-family: "Emilea";
     justify-self: flex-start;
   `;
@@ -24,7 +24,8 @@ export default function Title({ title }: Props) {
         alignItems: "center",
         width: "100%",
         position: "relative",
-      }}>
+      }}
+    >
       <motion.span
         style={{
           rotate: scrollY,
@@ -35,7 +36,8 @@ export default function Title({ title }: Props) {
           stiffness: 100,
           damping: 30,
           restDelta: 0.001,
-        }}>
+        }}
+      >
         <Password />
       </motion.span>
       <Title>{title}</Title>

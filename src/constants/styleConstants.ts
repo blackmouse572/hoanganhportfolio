@@ -1,8 +1,8 @@
 class constColor {
-  primary = "#AD8058";
-  secondary = "#555344";
-  hightlight = "#C0BDB7";
-  dark = "#1A1712";
-  light = "#F5F5F5";
+  primary = "#E5BABF";
+  secondary = "#FCF1EF";
+  hightlight = "#E7D8C9";
+  dark = "#CDD3D6";
+  light = "#5E616B";
 }
 export const colors = new constColor();
